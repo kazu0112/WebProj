@@ -8,6 +8,7 @@
 </head>
 <body>
 <br>
+<s:property value="name" />さん、お問合せありがとうございました。
 <br>
 <br>お問い合わせの種類:<br>
 <s:if test='qtype=="company"'>
@@ -20,7 +21,6 @@
 アフターサポートについて
 </s:if>
 <br>
-<s:property value="name" />さん、お問合せありがとうございました。
 <br>お問い合わせ内容:<br>
 <s:property value="body" />
 </body>
